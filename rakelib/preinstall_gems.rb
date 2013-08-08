@@ -10,7 +10,8 @@ options = {
   :generate_ri          => false,
   :generate_rdoc        => false,
   :ignore_dependencies  => true,
-  :conservative         => true
+  :conservative         => true,
+  :force                => true
 }
 
 gems.each do |gem|
